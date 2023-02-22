@@ -1,2 +1,2 @@
 # Osu
-[osu](https://jakubguttlspsmb.github.io/osu/)
+[osu](https://jakubguttlspsmb.github.io/Osu/)
