@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="./res/img/bring_em.png"  id="dificulty">
+    <div id="ballspeed">
+      <b><i>Ball speed</i></b>
+      <div id="ballFast" >fast</div>
+      <div id="ballMedium" >medium</div>
+      <div id="ballSlow"  >slow</div>
+    </div>
+    <div id="timerspeed">
+      <b><i> Timer speed</i></b>
+      <div id="timerFast">fast</div>
+      <div id="timerMedium">medium</div>
+      <div id="timerSlow">slow</div>
+    </div>
+    <div>
+      <div id="counter">0</div>
+      <img src="./res/img/shield.png" />
+    </div>
+    <img
+      src="./res/img/enemy1.png"
+      id="circle"
+      draggable="false"
+      onclick="get_random_image(), randomize(), get_random_image2()"
+    />
+
+    <script src="./res/js/main.js"></script>
+  </body>
+</html>
